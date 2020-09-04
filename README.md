@@ -1,6 +1,8 @@
 # springboot-ordermanagement
 ## Implements water ordering REST APIs so that farmers can request water to irrigate their farms.**
 
+## To run the application execute command mvn springboot:run on the commandline
+
 The aim of this project is to implement a water ordering API so farmers can request water to irrigate their farms. 
 Farmers can use this API to place water orders, view existing water orders and cancel water orders before they are delivered.
 
