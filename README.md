@@ -8,8 +8,17 @@ Farmers can use this API to place water orders, view existing water orders and c
 
 A basic water order has the following attributes:
 1. **farmId** – A unique ID for identifying a farm.
-2. **Start date time** – The date and time when water should be delivered.
-3. **Duration** – The duration of the order (e.g. Duration of 3 hours means water will flow into the farm for 3 hours from the start date time).
+2. **Start date time** – The date and time when water should be delivered. Ex: Sunday, Dec 15, 2019 01:50:16 PM
+3. **Duration** – The duration of the order (e.g. Duration of 3 hours means water will flow into the farm for 3 hours from the start date time). Ex: 3
+**Sample farmer request json -**
+{"farmName":"My own farm"}
+
+**Sample order request json -**
+{
+   "farmerid":"1",
+   "start":"Sunday, Dec 15, 2019 01:50:16 PM",
+   "hours":"1"
+}
 
 ## The project has the following features and functionality:
 1. Implements a REST API to accept new orders from a farmer.
